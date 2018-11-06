@@ -1,6 +1,13 @@
 
 
 
+/*Extra Features included are:
+1. end notification indicated by change in background image
+2. Stopwatch to keep track of time taken to solve puzzle as well as number of moves made determine best game played
+3. transition of tiles [TO BE GRADED]
+*/
+
+
 window.onload = function(){
 
 	fifpuzzle();
@@ -9,13 +16,6 @@ window.onload = function(){
 
 
 }
-		var topBlank= 300;//top of blank piece
-		var leftBlank= 300;//left of blank piece
-
-
-
-
-
 
 
 
@@ -56,6 +56,10 @@ function fifpuzzle(){
 	};
 
 }
+
+
+var topBlank= 300;//top of blank piece
+var leftBlank= 300;//left of blank piece
 
 
 // function to check if a tile is movable
