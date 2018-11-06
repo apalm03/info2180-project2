@@ -218,7 +218,7 @@ function isPuzzleSolved(){ // checks if puzzle is solved and the user wins game
 				 if(shuffcount > 0){
         document.querySelector("#time").innerHTML= "you won!! you made " + movecount +" moves in " + "time: " + displayMinutes+ ":" + displaySeconds;
 			}else{
-				document.querySelector("#time").innerHTML= "you won!! you made " + movecount +" moves in " + displayMinutes+ ":" + displaySeconds +" time: NEXT TIME CLICK SHUFFLE TO START TIMING!" ;
+				document.querySelector("#time").innerHTML= "you won!! you made " + movecount +" moves in time: " + displayMinutes+ ":" + displaySeconds +". NEXT TIME CLICK SHUFFLE TO START TIMING!" ;
 			}
 				stop();
 				for(var i = 0; i < tile.length; i++){ // if the game is won the image changes.
